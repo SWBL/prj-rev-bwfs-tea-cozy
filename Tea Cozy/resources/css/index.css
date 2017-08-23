@@ -1,0 +1,177 @@
+body {
+	background-color: black;
+	color: seashell;
+	height: 2000px;
+	opacity: 0.9;
+	font-family: Helvetica;
+
+
+}
+
+.flex-container {
+
+
+	position: fixed;
+	flex-wrap: wrap;
+	z-index: 1;
+	display: flex;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	height: 69px;
+	border-bottom: 1px solid seashell;
+	padding-bottom: 70px;
+	background-color: black;
+
+}
+
+
+.logo {
+	flex-grow: 1;
+	display: block;
+	padding-top: 35px;
+	padding-left: 10px
+
+    
+}
+
+.nav {
+	text-align: right;
+
+	flex-grow: 1;
+	display: block;
+    float: right;
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    align-items: flex-end;
+    
+}
+
+a {color: seashell;
+
+}
+
+li {
+	float: right;
+	padding-top: 60px;
+	padding-left: 30px;
+	font-family: Helvetica;
+	font-size: 22px;
+	
+}
+
+.content {
+	padding-top: 150px;
+}
+
+.heart {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.top {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+	
+	height: 700px;
+	
+	padding-top: 10px;
+
+	display: flex;
+
+    
+}
+
+.block {
+	width: 1200px;
+	justify-content: center;
+	flex-direction: column;
+	margin: auto;
+	width: 100%;
+    background-color: black;
+
+
+	  
+}
+
+h2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+h4 {
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.con {
+	 display: flex;
+	 flex-direction: row;
+	 flex-wrap: wrap;
+	 justify-content: center;
+	}
+
+.item {
+	display: inline-block;
+	margin: 10px;
+}
+
+
+.end {
+	background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.box {
+	background-color: black;
+	height: 300px;
+	width: 300px;
+	display:inline-block;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+	
+
+}
+
+.con2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+h3 {
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+p {
+	text-align: center;
+	font-size: 22px;
+}
+
+.last {
+	padding-left: 20px;
+}
+
+span {
+	text-align: center;
+	font-size: 10px;
+}
+
+.botend p {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h5 {
+	font-weight: bold;
+}
